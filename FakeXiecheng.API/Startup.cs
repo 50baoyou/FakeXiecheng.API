@@ -110,6 +110,7 @@ namespace FakeXiecheng.API
             // 添加服务层服务
             services.AddScoped<ITouristRouteService, TouristRouteService>();
             services.AddScoped<ITouristRoutePictureService, TouristRoutePictureService>();
+            services.AddScoped<IAuthenticateService, AuthenticateService>();
         }
 
 
